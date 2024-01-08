@@ -20,10 +20,12 @@
 
 /* header related styles */
 .header {
-    background-image: url('../resources/Banner\ Image.png');
+    background: rgba(0,0,0,0.5) url('../resources/Banner\ Image.png');
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 60px 270px;
+    border-radius: 30px;
 }
 
 
@@ -33,7 +35,7 @@
 }
 
 .banner-content h3 {
-    color: deeppink;
+    color: white;
     text-align: center;
     font-family: 'Merriweather';
     font-size: 32px;
@@ -41,7 +43,7 @@
 }
 
 .banner-content h1 {
-    color: deeppink;
+    color: white;
     text-align: center;
     font-family: 'Merriweather';
     font-size: 72px;
@@ -81,11 +83,13 @@
 }
 
 .party-content {
-    background-image: url('../resources/Vectorrr.png');
+    background: rgba(0,0,0,0.5) url('../resources/Vectorrr.png');
+    background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:cover;
     margin: 60px 270px;
     display: flex;
+    border-radius: 30px;
 }
 
 .party-info {
@@ -121,6 +125,7 @@
     text-align: center;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 40px 140px;
+    border-radius: 30px;
 }
 
 .place-info {
@@ -135,7 +140,7 @@
 .new-offer-content {
     display: flex;
     justify-content: center;
-    margin: 250px 140px;
+    margin: 200px 140px;
 }
 
 .new-offer-content-div1 {
@@ -200,6 +205,246 @@
     font-weight: 400;
     padding-top: 20px;
 }
-.new-offer-content-div3 img{
+
+.new-offer-content-div3 img {
     padding-top: 45px;
+}
+
+/* .sell-content {
+    margin: 0px 140px;
+}
+
+.sell-content-info {
+    text-align: center;
+}
+
+.sell-content-info h4 {
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sell-content-info h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sell-content-info p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sell-content-image-fix{
+    background-image: url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-top: 160px;
+}
+.sell-content-image-fix{
+    display: flex;
+    justify-content: space-between;
+}
+
+#img50{
+    width: 380px;
+    padding-left: 60px;
+}
+#gift-box{
+    width: 520px;
+    padding-left: 350px;
+}
+
+.sell-content-base{
+    background-color: #FF0000;
+} */
+
+.portfolio-section {
+    margin: 0px 140px;
+    padding: 170px;
+}
+
+.portfolio-info {
+    text-align: left;
+}
+
+.portfolio-info h3 {
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-info h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio-info p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-image {
+    display: inline-block;
+    width: 1280px;
+}
+
+.subscribe-section {
+    background-color: #FF00000D;
+    margin: 0px 140px 100px 140px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+}
+
+.subscribe-image {
+    text-align: center;
+    padding: 80px 580px 40px 580px;
+}
+
+.subscribe-info {
+    text-align: center;
+}
+
+
+.subscribe-info h1 {
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.subscribe-info p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.subscribe-form {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.email {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    padding-left: 30px;
+}
+
+.button {
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-left: -30px;
+}
+
+/* footer related style */
+.footer {
+    background-color: #070211;
+    padding: 100px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer-address p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.footer-contact p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-address {
+    padding: 25px;
+}
+
+.footer-phone {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-web {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-web img {
+    padding-right: 20px;
+}
+
+.footer-phone img {
+    padding-right: 20px;
+}
+
+.footer-image {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.copyright p {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 100px;
+}
+
+.copyright a {
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-right: 100px;
 }
