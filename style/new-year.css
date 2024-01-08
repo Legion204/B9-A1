@@ -16,11 +16,16 @@
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+    transition: .3s;
+}
+.btn-primary:hover{
+    color: #FF0000;
+    background: black;
 }
 
 /* header related styles */
 .header {
-    background: rgba(0,0,0,0.5) url('../resources/Banner\ Image.png');
+    background: rgba(0, 0, 0, 0.5) url('../resources/Banner\ Image.png');
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,10 +88,10 @@
 }
 
 .party-content {
-    background: rgba(0,0,0,0.5) url('../resources/Vectorrr.png');
+    background: rgba(0, 0, 0, 0.5) url('../resources/Vectorrr.png');
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     margin: 60px 270px;
     display: flex;
     border-radius: 30px;
@@ -210,12 +215,13 @@
     padding-top: 45px;
 }
 
-/* .sell-content {
+.sell-content {
     margin: 0px 140px;
 }
 
 .sell-content-info {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .sell-content-info h4 {
@@ -240,29 +246,31 @@
     font-weight: 500;
 }
 
-.sell-content-image-fix{
-    background-image: url('../resources/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position:right;
-    padding-top: 160px;
+.sell-content-image {
+    margin: 0px 140px;
 }
-.sell-content-image-fix{
+
+.disc50 {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
-#img50{
-    width: 380px;
-    padding-left: 60px;
-}
-#gift-box{
-    width: 520px;
-    padding-left: 350px;
+#discount {
+    position: absolute;
+    margin-right: 280px;
+    margin-top: 70px;
 }
 
-.sell-content-base{
-    background-color: #FF0000;
-} */
+.box-pic {
+    display: flex;
+    justify-content: end;
+}
+
+#box {
+    position: absolute;
+    margin-right: 525px;
+    margin-top: -435px;
+}
 
 .portfolio-section {
     margin: 0px 140px;
@@ -297,12 +305,21 @@
 
 .portfolio-image {
     display: inline-block;
-    width: 1280px;
+    width: 1400px;
+    margin-left: -50px;
+}
+.portfolio-image img{
+    padding: 20px;
+    transition: .3s;
 }
 
+.portfolio-image img:hover{
+transform: scale(1.1);
+z-index: 2;
+}
 .subscribe-section {
     background-color: #FF00000D;
-    margin: 0px 140px 100px 140px;
+    margin: -40px 140px 100px 140px;
     padding-bottom: 80px;
     border-radius: 30px;
 }
@@ -365,6 +382,11 @@
     font-weight: 600;
     text-transform: capitalize;
     margin-left: -30px;
+    transition: .3s;
+}
+.button:hover{
+    color: #FF0000;
+    background: #070211;
 }
 
 /* footer related style */
@@ -447,4 +469,8 @@
     font-weight: 500;
     text-decoration: none;
     padding-right: 100px;
+    transition: .3s;
+}
+.copyright a:hover{
+    color: #FF0000;
 }
