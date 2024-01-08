@@ -305,7 +305,8 @@
 }
 
 .portfolio-image {
-    display: inline-block;
+    display:flex;
+    flex-wrap: wrap;
     width: 1400px;
     margin-left: -50px;
 }
