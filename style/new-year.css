@@ -18,7 +18,8 @@
     padding: 15px 35px;
     transition: .3s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: #FF0000;
     background: black;
 }
@@ -308,15 +309,17 @@
     width: 1400px;
     margin-left: -50px;
 }
-.portfolio-image img{
+
+.portfolio-image img {
     padding: 20px;
     transition: .3s;
 }
 
-.portfolio-image img:hover{
-transform: scale(1.1);
-z-index: 2;
+.portfolio-image img:hover {
+    transform: scale(1.1);
+    z-index: 2;
 }
+
 .subscribe-section {
     background-color: #FF00000D;
     margin: -40px 140px 100px 140px;
@@ -384,7 +387,8 @@ z-index: 2;
     margin-left: -30px;
     transition: .3s;
 }
-.button:hover{
+
+.button:hover {
     color: #FF0000;
     background: #070211;
 }
@@ -448,6 +452,16 @@ z-index: 2;
 
 }
 
+.footer-image img {
+    transition: .3s;
+    padding: 0px 10px 0px 10px;
+}
+
+.footer-image img:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
 .copyright {
     display: flex;
     justify-content: space-around;
@@ -471,6 +485,7 @@ z-index: 2;
     padding-right: 100px;
     transition: .3s;
 }
-.copyright a:hover{
+
+.copyright a:hover {
     color: #FF0000;
 }
